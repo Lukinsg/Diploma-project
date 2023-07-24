@@ -30,10 +30,12 @@
 
 *для MySQL*:
 
+
 **java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" "-Dspring.datasource.username=app" "
 -Dspring.datasource.password=pass" -jar artifacts/aqa-shop.jar**
 
 *для PostgreSQL*:
+
 
 **java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" "-Dspring.datasource.username=app" "
 -Dspring.datasource.password=pass" -jar artifacts/aqa-shop.jar**
