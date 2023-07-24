@@ -18,7 +18,7 @@
 
 1. Проверьте наличие на Вашем компьютере сл. программам:
      
-   -Java: OpenJDK 11;
+   -Java: JDK 11;
 
    -Docker (для подключения и запуска через него следующих приложений: MySQL, PostgreSQL)
 
@@ -28,10 +28,12 @@
 3. Запустить приложение командой в консоли
 
 *для MySQL*:
+
 **java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" "-Dspring.datasource.username=app" "
 -Dspring.datasource.password=pass" -jar artifacts/aqa-shop.jar**
 
 *для PostgreSQL*:
+
 **java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" "-Dspring.datasource.username=app" "
 -Dspring.datasource.password=pass" -jar artifacts/aqa-shop.jar**
 
