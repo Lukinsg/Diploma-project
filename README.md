@@ -56,7 +56,7 @@
    терминале команду:
 
 
-   **./gradlew allureReport** - формирование отчёта
+**./gradlew allureReport** - формирование отчёта
 
 **./gradlew allureServe** - отображение отчёта в браузере
 
