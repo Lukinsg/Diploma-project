@@ -51,6 +51,6 @@
 
 **./gradlew allureServe** - отображение отчёта в браузере
 
-#### [Отчётные документы по итогам тестирования]()
+#### [Отчётные документы по итогам тестирования](https://github.com/Lukinsg/Diploma-project/blob/main/Documentation/Report.md)
 
-#### [Отчётные документы по итогам автоматизации]()
+#### [Отчётные документы по итогам автоматизации](https://github.com/Lukinsg/Diploma-project/blob/main/Documentation/Summary.md)
