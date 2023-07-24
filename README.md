@@ -29,32 +29,23 @@
 3. Запустить приложение командой в консоли
 
 *для MySQL*:
-**java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" "-Dspring.datasource.username=app" "
--Dspring.datasource.password=pass" -jar artifacts/aqa-shop.jar**
+> `java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" "-Dspring.datasource.username=app" "-Dspring.datasource.password=pass" -jar artifacts/aqa-shop.jar`
 
 *для PostgreSQL*:
-**java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" "-Dspring.datasource.username=app" "
--Dspring.datasource.password=pass" -jar artifacts/aqa-shop.jar**
+> `java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" "-Dspring.datasource.username=app" "-Dspring.datasource.password=pass" -jar artifacts/aqa-shop.jar`
 
 4. Запустить авто-тесты командой в консоли
 
 *для MySQL*:
-
-
-**./gradlew test "-Ddb.url=jdbc:mysql://localhost:3306/app" "-Ddb.username=app" "-Ddb.password=pass"**
+> `./gradlew test "-Ddb.url=jdbc:mysql://localhost:3306/app" "-Ddb.username=app" "-Ddb.password=pass"`
 
 *для PostgreSQL*:
+> `./gradlew test "-Ddb.url=jdbc:postgresql://localhost:5432/app" "-Ddb.username=app" "-Ddb.password=pass"`
 
+5. Создание *Allure* отчёта
+> `./gradlew allureReport` - формирование отчёта
 
-**./gradlew test "-Ddb.url=jdbc:postgresql://localhost:5432/app" "-Ddb.username=app" "-Ddb.password=pass"**
-
-5. Для получения отчёта( репорт Allure) по проведению автоматизированных тестов, после запуска тестов, введите в
-   терминале команду:
-
-
-**./gradlew allureReport** - формирование отчёта
-
-**./gradlew allureServe** - отображение отчёта в браузере
+> `./gradlew allureServe` - отображение отчёта в браузере
 
 #### [Отчётные документы по итогам тестирования](https://github.com/Lukinsg/Diploma-project/blob/main/Documentation/Report.md)
 
