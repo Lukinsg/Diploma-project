@@ -43,9 +43,13 @@
 4. Запустить авто-тесты командой в консоли
 
 *для MySQL*:
+
+
 **./gradlew test "-Ddb.url=jdbc:mysql://localhost:3306/app" "-Ddb.username=app" "-Ddb.password=pass"**
 
 *для PostgreSQL*:
+
+
 **./gradlew test "-Ddb.url=jdbc:postgresql://localhost:5432/app" "-Ddb.username=app" "-Ddb.password=pass"**
 
 5. Для получения отчёта( репорт Allure) по проведению автоматизированных тестов, после запуска тестов, введите в
